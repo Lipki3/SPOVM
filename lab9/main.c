@@ -54,7 +54,7 @@ int main() {
         memcpy(shared_memory, &empty_user, sizeof(struct user));
     }
 }
-
+ 
 
 void *write_m(void * arg) {
     while(true) {
